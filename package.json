@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/GuilhermeSenna/new-typescript-practice#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   }
