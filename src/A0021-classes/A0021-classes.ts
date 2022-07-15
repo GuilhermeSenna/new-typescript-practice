@@ -1,5 +1,5 @@
 
-// Jeito extenso
+// Long way
 export class Empresa {
     readonly nome: string; // Public
     private readonly colaboradores: Colaborador[] = [];
@@ -21,7 +21,7 @@ export class Empresa {
     }
 }
 
-// Jeito longo
+// Short way
 export class Colaborador {
     constructor(readonly nome: string, readonly sobrenome: string) { }
 }
