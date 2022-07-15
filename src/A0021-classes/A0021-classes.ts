@@ -21,7 +21,6 @@ export class Empresa {
     }
 }
 
-// Short way
 export class Colaborador {
     constructor(readonly nome: string, readonly sobrenome: string) { }
 }
