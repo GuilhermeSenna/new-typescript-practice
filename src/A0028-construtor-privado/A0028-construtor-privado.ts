@@ -31,7 +31,8 @@ const db1 = Database.getDatabase('127.0.0.1', 'host', '123');
 
 // ... and after that will output the already created database instance!
 const db2 = Database.getDatabase('127.0.0.1', 'host', '123');
-db1.connect();
-db2.connect();
 
-console.log(db1 === db2);
+db1.connect(); // 'CREATING NEW INSTANCE!'
+db2.connect(); // 'RETURNING INSTANCE ALREADY CREATED!'
+
+console.log(db1 === db2); // true
