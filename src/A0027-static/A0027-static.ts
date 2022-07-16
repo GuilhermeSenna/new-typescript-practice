@@ -1,5 +1,4 @@
 export class Pessoa {
-
     static IdadePadrao = 0;
     static cpfPadrao = '000.000.000-00';
 
