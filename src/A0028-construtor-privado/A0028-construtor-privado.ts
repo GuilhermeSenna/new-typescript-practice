@@ -16,11 +16,11 @@ export class Database {
     // Factory method
     static getDatabase(host: string, user: string, password: string): Database {
         if (Database.database) {
-            console.log('RETORNANDO INSTÂNCIA JÁ CRIADA');
+            console.log('RETURNING INSTANCE ALREADY CREATED!');
             return Database.database;
         }
 
-        console.log('CRIANDO NOVA INSTÂNCIA');
+        console.log('CREATING NEW INSTANCE!');
         Database.database = new Database(host, user, password);
         return Database.database;
     }
