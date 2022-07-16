@@ -26,10 +26,10 @@ export class Database {
     }
 }
 
-// The first call the database will be created
+// In The first call the database instance will be created...
 const db1 = Database.getDatabase('127.0.0.1', 'host', '123');
 
-// After that will output the already created database
+// ... and after that will output the already created database instance!
 const db2 = Database.getDatabase('127.0.0.1', 'host', '123');
 db1.connect();
 db2.connect();
