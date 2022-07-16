@@ -1,7 +1,5 @@
 // Singleton - GoF | Factory Method - Gof
 
-import { Console } from "console";
-
 export class Database {
     private static database: Database;
 
