@@ -15,6 +15,8 @@ export class Database {
 
     // Factory method
     static getDatabase(host: string, user: string, password: string): Database {
+
+        // Prototype & Singleton
         if (Database.database) {
             console.log('RETURNING INSTANCE ALREADY CREATED!');
             return Database.database;
