@@ -37,7 +37,7 @@ const pessoaObj: TipoPessoa2 = {
     },
     nome: 'Luiz',
     sobrenome: 'Agora está OK',
-}
+};
 
 const pessoa = new Pessoa('Guilherme', 'Senna');
 console.log(pessoa.nomeCompleto());
