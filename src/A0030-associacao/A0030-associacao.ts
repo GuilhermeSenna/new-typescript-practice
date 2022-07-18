@@ -8,7 +8,7 @@ export class Escritor {
         return this._nome;
     }
 
-    set ferramenta(ferramenta: Ferramenta) {
+    set ferramenta(ferramenta: Ferramenta | null) {
         this._ferramenta = ferramenta;
     }
 
