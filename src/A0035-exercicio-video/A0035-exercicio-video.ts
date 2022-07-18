@@ -38,6 +38,12 @@ export default class VideoPlayer implements VideoPlayerProtocol {
         this.playButton.addEventListener('click', () => {
             this.playToggle();
         });
+
+        this.stopButton.addEventListener('click', () => {
+            this.videoPlayer.pause();
+            this.videoPlayer.currentTime = 0;
+            this.playButton.innerText = 'Play';
+        });
     }
 }
 
