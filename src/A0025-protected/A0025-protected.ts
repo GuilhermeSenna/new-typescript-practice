@@ -1,6 +1,6 @@
 export class Empresa {
     nome: string; // Public
-    private readonly colaboradores: Colaborador[] = [];
+    protected readonly colaboradores: Colaborador[] = [];
     private readonly cnpj: string;
 
     constructor(nome: string, cnpj: string) {
