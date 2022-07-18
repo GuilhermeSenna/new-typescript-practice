@@ -17,7 +17,7 @@ export class Escritor {
     }
 
     escrever(): void {
-        if (this._ferramenta === null) {
+        if (this.ferramenta === null) {
             console.log('Não posso escrever sem ferramenta...');
             return;
         }
