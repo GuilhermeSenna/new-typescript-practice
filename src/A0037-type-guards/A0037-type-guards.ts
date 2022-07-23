@@ -5,8 +5,8 @@ export function add(a: unknown, b: unknown): number | string {
 console.log(add(1, 5));
 console.log(add('a', 'b'));
 
-type Pessoa = { tipo: 'pessoa'; nome: string };
-type Animal = { tipo: 'animal'; cor: string };
+type Pessoa = {tipo: 'pessoa'; nome: string};
+type Animal = {tipo: 'animal'; cor: string};
 
 type PessoaOuAnimal = Pessoa | Animal;
 
@@ -30,4 +30,4 @@ function mostraNome(obj: PessoaOuAnimal) {
 }
 
 mostraNome(new Aluno('João'));
-mostraNome({ tipo: 'animal', cor: 'Rosa' });
+mostraNome({tipo: 'animal', cor: 'Rosa'});
