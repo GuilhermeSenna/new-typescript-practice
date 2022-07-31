@@ -54,6 +54,6 @@ export class RequestBuilder {
     }
 }
 
-const request = new RequestBuilder();
+const request = new RequestBuilder(); // Builder
 request.setUrl('http://www.google.com');
 request.setMethod('post').send();
