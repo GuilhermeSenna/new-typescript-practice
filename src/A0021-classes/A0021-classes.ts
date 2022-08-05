@@ -1,4 +1,3 @@
-
 // Long way
 export class Empresa {
     readonly nome: string; // Public
